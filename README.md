@@ -68,3 +68,88 @@ The project follows the **Medallion Architecture**, where data moves through thr
 - Performed business analysis using SQL.
 - Designed an interactive Power BI dashboard with KPIs and visualizations.
 - Managed the project using Git and GitHub.
+## 📂 Repository Structure
+
+```text
+databricks-etl-powerbi-project/
+│
+├── notebooks/
+│   ├── 01_Bronze_ETL.py
+│   ├── 02_Silver_ETL.py
+│   ├── 03_Gold_ETL.py
+│   ├── 04_SQL_Analysis.py
+│   └── 05_Python_EDA.py
+│
+├── dashboard/
+│   └── Ecommerce_Dashboard.pbix
+│
+├── images/
+│
+├── sql/
+│
+├── docs/
+│
+├── README.md
+├── LICENSE
+└── .gitignore
+```
+## 📊 Power BI Dashboard
+
+The dashboard provides interactive business insights through:
+
+- 💰 Total Sales
+- 📦 Total Orders
+- 👥 Total Customers
+- 🏪 Total Sellers
+- ⭐ Average Review Score
+- 📈 Monthly Sales Trend
+- 🛍️ Top Product Categories
+- 💳 Payment Type Analysis
+- 🚚 Delivery Performance
+- 📌 Order Status Distribution
+
+> Dashboard screenshots will be added in the `images/` folder.
+## 💼 Skills Demonstrated
+
+- Data Engineering
+- ETL Pipeline Development
+- Medallion Architecture
+- Apache Spark & PySpark
+- SQL Analytics
+- Data Cleaning & Feature Engineering
+- Data Visualization
+- Power BI Dashboard Development
+- Git & GitHub
+## 🚀 How to Run
+
+1. Clone this repository.
+2. Import the notebooks into Databricks.
+3. Upload the Olist dataset to Databricks.
+4. Run the notebooks in the following order:
+
+```
+01_Bronze_ETL
+↓
+02_Silver_ETL
+↓
+03_Gold_ETL
+↓
+04_SQL_Analysis
+↓
+05_Python_EDA
+```
+
+5. Open the Power BI dashboard (`.pbix`) to explore the visualizations.
+## 🔮 Future Enhancements
+
+- Automate ETL using Databricks Workflows.
+- Integrate real-time data ingestion.
+- Deploy dashboards to Power BI Service.
+- Add data quality monitoring and alerts.
+## 👩‍💻 Author
+
+**Vyshnavi**
+
+Computer Science Engineering Student
+
+If you found this project useful, consider giving it a ⭐.
